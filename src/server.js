@@ -13,6 +13,6 @@ const init = async () => {
   });
   server.route(routes);
   await server.start();
-  console.log(`Server bejalan pada http://${server.info.uri}`);
+  console.log(`Server bejalan pada ${server.info.uri}`);
 };
 init();
